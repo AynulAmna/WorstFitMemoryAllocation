@@ -34,11 +34,14 @@ This project implements the **Worst Fit Memory Allocation Algorithm** using **HT
 4. Click **"Show Remaining Memory"** to see memory status after each process allocation.
 
 ## System Flowchart
-![System Flowchart](path-to-your-flowchart-image)
+![System Flowchart](flowchart.png)
+
+## Class Diagram
+![Class Diagram](classdiagram.png)
 
 ## Project Screenshots
 ### Main Interface
-![Main Interface](path-to-interface-screenshot)
+![Main Interface](mainui.png)
 
 ### Allocation Results
 ![Allocation Results](path-to-results-screenshot)
