@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Worst Fit Memory Allocation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Worst Fit Memory Allocation</h1>
+        <p>Simulate memory management using the Worst Fit algorithm</p>
+
+        <div class="inputs">
+            <label for="memory-blocks">Memory Blocks (comma-separated):</label>
+            <input type="text" id="memory-blocks" placeholder="e.g., 100, 500, 200">
+            
+            <label for="processes">Processes (comma-separated):</label>
+            <input type="text" id="processes" placeholder="e.g., 200, 400, 150">
+            
+            <button id="allocateBtn">Allocate Memory</button>
+        </div>
+
+        <div class="results">
+            <table id="resultTable">
+                <thead>
+                    <tr>
+                        <th>Process No.</th>
+                        <th>Process Size</th>
+                        <th>Allocated Block</th>
+                        <th>Remaining Memory in Blocks</th>
+                    </tr>
+                </thead>
+                <tbody id="resultBody">
+                    <!-- Results will go here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="worstfit.js"></script>
+</body>
+</html>
